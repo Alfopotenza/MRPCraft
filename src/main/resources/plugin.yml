@@ -1,0 +1,18 @@
+name: RPCraft
+version: '1.0-SNAPSHOT'
+main: RPCraft.rPCraft.RPCraft
+api-version: '1.21'
+commands:
+  CreateKingdom:
+    description: create a kingdom by providing the name.
+    usage: "/<command> <nomeRegno>"
+    permission: RPCraft.createkingdom
+  SetCapitalName:
+    description: set the name of the capital
+    usage: "/<command>"
+    permission: RPCraft.setcapitalname
+  addCity:
+    description: adds city to the kingdom of the player
+    usage: "/<command> <nomeCittà>"
+    permission: RPCraft.addcity
+
